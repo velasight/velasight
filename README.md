@@ -24,7 +24,6 @@ graph TD
     
     Orchestrator --> |WebSocket / Poll| Frontend[Next.js Waveform Dashboard]
 
-
 🚀 Reproducible Testing Instructions
 This project consists of a Python Flask backend (handling webhook routing, graph queries, and AI generation) and a Next.js frontend (handling the voice UI).
 
@@ -62,3 +61,8 @@ Start the development server:
 npm run dev
 
 Open http://localhost:3000 in your browser. Ensure microphone permissions are granted.
+
+
+4. Click **Commit changes**.
+
+Take your time with this one. Let me know if that beautiful flowchart finally appears on your screen!
