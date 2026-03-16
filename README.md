@@ -22,7 +22,7 @@ graph TD
         Orchestrator <--> |Context Cache| Redis[(Redis Local Memory)]
     end
     
-    Orchestrator --> |WebSocket / Poll| Frontend[Next.js Waveform Dashboard]
+    Orchestrator --> |WebSocket / Poll| Frontend[Next.js Waveform Dashboard]```
 
 ## 🚀 Reproducible Testing Instructions
 
