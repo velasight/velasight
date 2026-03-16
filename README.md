@@ -23,6 +23,8 @@ graph TD
     end
     
     Orchestrator --> |WebSocket / Poll| Frontend[Next.js Waveform Dashboard]
+```
+
 🚀 Reproducible Testing Instructions
 This project consists of a Python Flask backend (handling webhook routing, graph queries, and AI generation) and a Next.js frontend (handling the voice UI).
 
