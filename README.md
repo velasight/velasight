@@ -23,6 +23,7 @@ graph TD
     end
     
     Orchestrator --> |WebSocket / Poll| Frontend[Next.js Waveform Dashboard]
+```
 
 🚀 Reproducible Testing Instructions
 This project consists of a Python Flask backend (handling webhook routing, graph queries, and AI generation) and a Next.js frontend (handling the voice UI).
@@ -39,30 +40,25 @@ Active Neo4j AuraDB instance and Vapi.ai account.
 Setup:
 
 Install dependencies:
-
-Bash
 pip install -r requirements.txt
+
 Set up your environment variables (Neo4j, Vapi, Google Cloud).
 
 Start the orchestrator:
-
-Bash
 python agent.py
-Expose the port using ngrok (for Vapi webhooks):
 
-Bash
+Expose the port using ngrok (for Vapi webhooks):
 ngrok http 8000
+
 (Note: A deploy.sh script is included to automate GCP infrastructure deployment).
 
 2. Frontend Spin-Up (Next.js)
 Navigate to the frontend folder.
 
 Install Node dependencies:
-
-Bash
 npm install
-Start the development server:
 
-Bash
+Start the development server:
 npm run dev
+
 Open http://localhost:3000 in your browser. Ensure microphone permissions are granted.
